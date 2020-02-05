@@ -1,0 +1,44 @@
+.day-of-week,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: lightgrey;
+  color: darkcyan;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dayBlock {
+    background-color: lightcyan;
+    border: 1px solid darkcyan;
+    min-height: 100px;
+    padding: 5px;
+}
+
+.calendar__button {
+  background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.eventList__item {
+  background-color: rgba(1, 1, 1, 0.5);
+  color: lightcyan;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 0px;
+  font-size: smaller;
+}
+
+.eventList__item__time {
+  font-size: x-small;
+}

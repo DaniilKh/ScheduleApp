@@ -1,0 +1,24 @@
+.addEvent__button {
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;
+    margin: 20px;
+    background-color: lightcyan;
+    border-color: darkcyan;
+    font-size: 60px;
+    color: darkcyan;
+    padding: 0px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.addEvent__button:hover{
+    background-color: darkcyan;
+    color: lightcyan;
+    border-color: lightcyan;
+}
+
+.addEvent__button:focus{
+    outline: none;
+}

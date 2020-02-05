@@ -1,0 +1,36 @@
+.addEvent__overlay {
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: visible;
+    opacity: 1;
+}
+
+.addEvent__popup {
+    margin:70px auto;
+    padding:20px;
+    background: #fff;
+    border-radius: 5px;
+    width:50%;
+    position:relative;
+    transition: all 3s ease-in-out;
+}
+
+.addEvent__form--close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.addEvent__form--close:hover {
+    color:red;
+}
