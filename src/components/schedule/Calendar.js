@@ -19,10 +19,6 @@ class Calendar extends React.Component {
         return v.dateStart.getMonth() <= this.props.month && v.dateEnd.getMonth() >= this.props.month;
     }
 
-    isToday = (v, currentDay) => {
-        return v.dateStart.getDay() === currentDay || v.dateEnd.getDay() === currentDay;
-    }
-
     filterEvents = (currentDay) => {
 
         console.log('currentday:' +currentDay);
